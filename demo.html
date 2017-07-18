@@ -61,7 +61,7 @@
 	});
 
 	function maxtridFun(panel, color) {
-		let content = panel.querySelector(".content");
+		var content = panel.querySelector(".content");
 		content.style.backgroundColor = color;
 		panel.addEventListener('mouseout',function(e){
 			content.style.transform = `perspective(300px) 
